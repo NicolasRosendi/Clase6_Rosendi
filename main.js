@@ -2,6 +2,7 @@ var d;
 var e;
 var h;
 var g;
+var t;
 const lista = [];
 
 function nombre(n, o){
@@ -120,7 +121,8 @@ function amigo(dios){
     dios = prompt("Ingrese '1' para añadir cosas a la lista o '2' para revisarla, sino ingrese '3' para salir");
     switch(dios){
         case "1":
-            lista.push(prompt("Nuevo dato"));
+            t = prompt("Nuevo dato");
+            lista.push(t);
             return amigo();
 
         case "2":
