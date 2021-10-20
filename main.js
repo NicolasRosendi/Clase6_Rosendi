@@ -2,6 +2,7 @@ var d;
 var e;
 var h;
 var g;
+const lista = [];
 
 function nombre(n, o){
     this.n = n;
@@ -113,7 +114,7 @@ function calc(cuenta, n1, n2, operacion) {
     }
 }
 
-const lista = [];
+
 
 function amigo(dios){
     dios = prompt("Ingrese '1' para añadir cosas a la lista o '2' para revisarla, sino ingrese '3' para salir");
