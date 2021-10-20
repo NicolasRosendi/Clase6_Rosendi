@@ -119,7 +119,7 @@ function amigo(dios){
     dios = prompt("Ingrese '1' para añadir cosas a la lista o '2' para revisarla, sino ingrese '3' para salir");
     switch(dios){
         case "1":
-            lista.push(prompt("Nuevo dato").toUpperCase);
+            lista.push(prompt("Nuevo dato"));
             return amigo();
 
         case "2":
